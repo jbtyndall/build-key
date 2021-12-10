@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BuildLibrary
+﻿namespace BuildLibrary
 {
-    internal class BuildLibrary
+    public class BuildLibrary
     {
+        public void DoPersonStuff()
+        {
+            Person p = new Person();
+
+            p.FirstName = "Bill";
+
+            p.LastName = "Jones";
+
+
+        }
     }
 }
